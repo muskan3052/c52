@@ -1,0 +1,41 @@
+.Header {
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+}
+
+.Footer{
+    background-color:#DEB887;
+    display:flex;
+    justify-content:end;
+}
+
+.Grid {
+    /* background-color:#6495ED; */
+    display:flex;
+    justify-content:space-evenly;
+}
+
+h1,p {
+    color:#000000;
+}
+
+a:link {
+color:blue
+}
+
+a:visited{
+    color:green
+}
+
+a:hover {
+opacity:0.5;
+}
+
+.Items:hover p{
+color:yellowgreen
+}
+
+.Items:hover img{
+    opacity:0.5
+}
